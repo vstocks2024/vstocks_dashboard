@@ -1,9 +1,9 @@
 import DefaultLayout from "@/components/Layouts/DefaultLaout";
 
-export default function MessagesPage(){
+export default function EventsPage(){
     return (<>
     <DefaultLayout>
-        <h1>Messages Page</h1>
+        <h1>Event Page</h1>
     </DefaultLayout>
-    </>);
+    </>)
 }
