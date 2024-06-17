@@ -4,10 +4,10 @@ import DefaultLayout from "@/components/Layouts/DefaultLaout";
 export default function ImagesPage(){
     return (<>
     <DefaultLayout>
-        <main className="mx-auto w-full max-w-[1000px] border border-white">
+        <main className="mx-auto w-full max-w-[1000px]">
         <Breadcrumb pageName="Images" />
-     <div className="border border-green-500 m-[1px] p-[1px] flex flex-col">
-     <div className="border border-pink-500 m-[1px] p-[1px] w-1/2 ">
+     <div className="m-[1px] p-[1px] flex flex-col">
+     <div className=" m-[1px] p-[1px] w-1/2 ">
     <div className="rounded-[10px] border border-stroke bg-white shadow-1 dark:border-dark-3 dark:bg-gray-dark dark:shadow-card">
             <div className="border-b border-stroke px-6.5 py-4 dark:border-dark-3">
               <h3 className="font-medium text-dark dark:text-white">
