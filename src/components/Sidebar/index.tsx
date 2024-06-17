@@ -15,6 +15,8 @@ import { MdOutlineMail } from "react-icons/md";
 import { BsCalendarEvent } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineUserGroup } from "react-icons/hi2";
+import { FaLayerGroup } from "react-icons/fa";
+import { HiOutlinePrinter } from "react-icons/hi2";
 
 interface SidebarProps {
   sidebarOpen: boolean;
@@ -191,6 +193,11 @@ const menuGroups = [
         ],
       },
       {
+        icon: <FaLayerGroup size={24}/>,
+        label: "Categories",
+        route: "/categories",
+      },
+      {
         icon: <HiTemplate size={24}/>,
         label: "Templates",
         route: "/templates",
@@ -212,7 +219,7 @@ const menuGroups = [
       //   route: "/inbox",
       //  },
    {
-    icon: <FaFileInvoice size={24}/>,
+    icon: <HiOutlinePrinter size={24}/>,
     label: "Invoices",
     route: "/invoices",
    },

@@ -4,7 +4,7 @@ import DefaultLayout from "@/components/Layouts/DefaultLaout"
 export default function VideoPage(){
     return <>
     <DefaultLayout>
-    <main className="mx-auto w-full max-w-[970px] border-white">
+    <main className="mx-auto w-full max-w-[1000px] border-white">
         <Breadcrumb pageName="Videos" />
      <div className="border border-green-500 m-[1px] p-[1px] flex flex-col">
      <div className="border border-pink-500 m-[1px] p-[1px] w-1/2 ">

@@ -1,9 +1,13 @@
+import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import DefaultLayout from "@/components/Layouts/DefaultLaout";
+import TableTemplates from "@/components/Tables/TableTemplates";
+
 
 export default function TemplatePage(){
     return (<>
     <DefaultLayout>
-        <h1>Template Page</h1>
+    <Breadcrumb pageName="Templates" />
+    <TableTemplates/>
     </DefaultLayout>
     </>)
 }
